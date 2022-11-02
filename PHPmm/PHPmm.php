@@ -1,5 +1,6 @@
 <?php
 
+namespace PHPmm;
 
 class PHPmm
 {
@@ -10,7 +11,7 @@ class PHPmm
         $url = $_SERVER['REQUEST_URI'];
         $_arr = explode('/', $url);
         $action = ucfirst($_arr[1]) . 'Action';
-        if ($url == '/') {
+        if ($url === '/') {
             $action = 'IndexAction';
         }
         $actionObj = new  $action();
@@ -20,7 +21,7 @@ class PHPmm
 
     private function load($className)
     {
-        if ($className == 'Action') {
+        if ($className === 'Action') {
             require Lib . '/core/' . $className . '.php';
         }
         if (strpos($className, 'Action') != false) {

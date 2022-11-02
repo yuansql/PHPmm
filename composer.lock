@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "145f97d54abc3d8f2685165e8d952dbc",
+    "packages": [
+        {
+            "name": "wumm/verify",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yuansql/verify.git",
+                "reference": "3f140d3b25ed686499fdd0ef0d26f9909c4c59f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yuansql/verify/zipball/3f140d3b25ed686499fdd0ef0d26f9909c4c59f3",
+                "reference": "3f140d3b25ed686499fdd0ef0d26f9909c4c59f3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Oneinit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Smith",
+                    "email": "w2011344@qq.com",
+                    "homepage": "https://github.com/oneinit"
+                }
+            ],
+            "description": "测试开发 composer",
+            "homepage": "https://github.com/oneinit",
+            "keywords": [
+                "测试1",
+                "测试2"
+            ],
+            "support": {
+                "issues": "https://github.com/yuansql/verify/issues",
+                "source": "https://github.com/yuansql/verify/tree/1.0.0"
+            },
+            "time": "2022-04-27T12:24:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

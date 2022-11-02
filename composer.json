@@ -1,0 +1,22 @@
+{
+    "name": "wumm/phpmm",
+    "description": "phpmm 自创轮子",
+    "type": "project",
+    "authors": [
+        {
+            "name": "wummm",
+            "homepage": "https://blog.csdn.net/m0_50593634?type=blog"
+        }
+    ],
+    "require": {
+        "wumm/verify": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
