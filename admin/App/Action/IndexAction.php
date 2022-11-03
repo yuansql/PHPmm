@@ -1,14 +1,12 @@
 <?php
 
-namespace app\Action;
+
 use Oneinit\Verify;
-use PHPmm\Core\Action;
 
 class  IndexAction extends Action
 {
     public function index()
     {
-    	
     	$email = 'w2011344@qq.com';
 	    var_dump((new Verify())->isValidEmail($email));
 	    echo '<br/>';

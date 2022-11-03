@@ -1,7 +1,5 @@
 <?php
 
-use PHPmm\PHPmm;
-
 header("Content-type:text/html;charset=utf-8"); //设置框架编码
 ini_set("date.timezone", "Asia/Shanghai");//设置 时间区域
 const APP_PATH = __DIR__ . '/';//定义我们的项 目路径常量

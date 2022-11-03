@@ -1,6 +1,5 @@
 <?php
 
-namespace PHPmm;
 
 class PHPmm
 {

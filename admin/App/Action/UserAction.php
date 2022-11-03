@@ -1,7 +1,5 @@
 <?php
 
-namespace app\Action;
-use PHPmm\Core\Action;
 
 class UserAction extends Action
 {
